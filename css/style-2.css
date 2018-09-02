@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --------------------------- MY STYLE ---------------------------- */
+body{
+	width: 100%;
+	box-sizing: border-box;
+	color:#373737;
+	font-size: 16px;
+  	font-family:  Calibri, Helvetica, Arial, sans-serif;
+  	line-height: 1.5;
+}
+
+header h1, .header-title, section {
+	padding-right: 200px; 
+	padding-left: 200px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	font-weight: inherit;
+}
+	
+header  h1 {
+background: #222222;
+color: white;
+}
+
+nav h3{
+	color: white;
+	background: #222222;
+	height: 40px;
+	padding-right: 20px;
+}
+
+nav li{
+background: #FFFFFF;
+border-top: 1px dotted #ECECEC;
+padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+nav li:hover{
+	background: yellow;
+	display: block;
+}
+
+header nav {
+	width:120px;
+	float:left;
+	height:50px;
+  }
+
+  header h1{
+	 padding-top: 15px;
+	  height: 50px;
+	  color: #999999;
+	  font-size: 25px; 
+  }
+
+  header{
+	  background: #949381;
+	  height: 300px;
+	  border-bottom: 20px solid #605F52;
+  }
+
+  .header-title h2{
+	  width: 300px;
+	  color: #FFFFFF;
+	  font-size: 50px;
+	  font-weight: inherit;
+	  line-height: 90%;
+	  padding-top: 15px;
+  }
+
+  .header-title p{
+	width: 200px;
+	font-weight: bold;
+	margin-top: 20px;
+  }
+
+  .lecture{
+	  width: 250px;
+	  display: inline-block;
+	  margin: 10px;
+  }
+
+  .lecture-container{
+	background: #FFFFFF;
+	border-radius: 10%;
+  }
+
+  .lecture-background{
+	padding: 20px;
+  }
+
+  .lecture-header{
+	padding: 10px 30px;
+	background: #D0EAE9;
+	border-radius: 30%;
+  }
+
+  .lecture img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  #lecture-all{
+	  background: #ECECEC;
+  }
+
+  hr {
+	  border-top: dotted 1.5px #DCDCDC;
+}
+
+  #info{
+	  background: #DCDCDC;
+  }
+
+  #registration{
+	  background: #959586;
+  }
+
+  #useful_info{
+	  background: #ECECEC
+	  color: #444444;
+  }
+
+  footer h2{
+	  background: #2B2B2B;
+	  color: #ECECEC;
+  }
+
+  .contributers{
+	  background: #212121;
+	  color: #FFFFFF;
+  }
+
+  .contact-information{
+	  background: #212121;
+  }
+
+  .info-right{
+	  margin: 15px 0px;
+  }
+
+  span{
+	  font-size: 35px;
+	  font-weight: bold;
+	  color: #7D7D7D;
+  }
+
+  #registration h2{
+	  color: #DFC734;
+	  font-size: 40px;
+  }
+
+
+  #useful_info h2{
+	font-size: 40px;
+	margin: 15px 0px;
+  }
+
+  #useful_info li{
+	  display: inline-block;
+	  margin: 10px;
+  }
+
+  #useful_info img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .contributers, .contact-information{
+	  color: #EFEFEF;
+  }
+  
